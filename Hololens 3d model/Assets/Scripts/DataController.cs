@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class DataController : MonoBehaviour {
     
-    string DataFileName = "data.json";
+    public string DataFileName = "data.json";
     public StageData dat;
     private void Start()
     {
