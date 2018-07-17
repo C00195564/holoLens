@@ -5,8 +5,12 @@ using System.IO;
 using UnityEngine.SceneManagement;
 
 public class DataController : MonoBehaviour {
-    
-    string DataFileName = "data.json";
+    /// <summary>
+    /// hardcoding what file to load is not acceptable
+    /// figure out a way to load
+    /// </summary>
+    public string DataFileName;
+
     public StageData dat;
     private void Start()
     {

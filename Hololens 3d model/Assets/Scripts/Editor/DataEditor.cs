@@ -8,11 +8,11 @@ public class DataEditor : EditorWindow
 {
     public StageData stageData;
     Vector2 vsbarvalue;
-    string DataFileName = "data.json";
 
     [MenuItem ("Window/Data Editor")]
     static void init()
     {
+
         DataEditor window = (DataEditor)EditorWindow.GetWindow(typeof(DataEditor));
         
         window.Show();
@@ -36,18 +36,22 @@ public class DataEditor : EditorWindow
                 SaveData();
             }
         }
-
-        if(GUILayout.Button("Load Data"))
+        if (GUILayout.Button("Load Data"))
         {
             LoadData();
         }
+        if (GUILayout.Button("New"))
+        {
+            stageData = new StageData();
+        }
+
         GUILayout.EndScrollView();
     }
 
     private void LoadData()
     {
         Debug.Log("Loading data.json");
-        string filepath = Path.Combine(Application.streamingAssetsPath, DataFileName);
+        string filepath = EditorUtility.OpenFilePanel("Select .JSON to edit", Application.streamingAssetsPath, "json"); ;
         if (File.Exists(filepath))
         {
             string jsonData = File.ReadAllText(filepath);
@@ -63,8 +67,9 @@ public class DataEditor : EditorWindow
     private void SaveData()
     {
         Debug.Log("saving data json");
+        string path = EditorUtility.SaveFilePanel("Select where to save .JSON file", Application.streamingAssetsPath, "Default", "json");
         string jsondata = JsonUtility.ToJson(stageData);
-        string filepath = Path.Combine(Application.streamingAssetsPath, DataFileName);
+        string filepath = path;
         File.WriteAllText(filepath, jsondata);
     }
 	
