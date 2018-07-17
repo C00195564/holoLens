@@ -7,27 +7,19 @@ using HoloToolkit.Unity.InputModule;
 public class ButtonAction : InteractionReceiver {
 
     public PartPositionControl controller;
-
-    void Start()
-    {
-        
-    }
+    bool blownUp = false;
 
     protected override void InputDown(GameObject obj, InputEventData eventData)
     {
-       // Debug.Log(obj.name + " : InputDown");
-       // txt.text = obj.name + " : InputDown";
     }
 
     protected override void InputUp(GameObject obj, InputEventData eventData)
     {
-        //Debug.Log(obj.name + " : InputUp");
-       // txt.text = obj.name + " : InputUp";
     }
 
     protected override void InputClicked(GameObject obj, InputClickedEventData eventData)
     {
-        Debug.Log(obj.name + " : InputClicked");
+        //Debug.Log(obj.name + " : InputClicked");
         switch(obj.name)
         {
             case "PrevButton":
@@ -40,6 +32,21 @@ public class ButtonAction : InteractionReceiver {
             case "FirstButton":
                 break;
             case "LastButton":
+                break;
+            case "BlowUpButton":
+                if (!blownUp)
+                {
+                    controller.NextStage();
+                    blownUp = true;
+                    Debug.Log("blow up");
+                }
+                else
+                {
+                    controller.PreviousStage();
+                    blownUp = false;
+                    Debug.Log("shrink back");
+                }
+
                 break;
         }
     }
