@@ -84,10 +84,7 @@ public class PartPositionControl : MonoBehaviour {
             parts[i].GetComponent<MeshRenderer>().enabled = stgdt.data[currentStage].alive[i];
             //Debug.Log(stgdt.data[currentStage].alive[i]);
         }
-        if (text != null)
-        {
-            text.updateText(currentStage);
-        }
+        
     }
 
     public void Reset()
@@ -99,9 +96,13 @@ public class PartPositionControl : MonoBehaviour {
     IEnumerator SmoothMove()
     {
         float elapsedtime = 0;
-        float time = 5;
+        float time = 1;
         while (elapsedtime < time)
         {
+            if (text != null)
+            {
+                text.updateText(currentStage);
+            }
             for (int i = 0; i < stgdt.data[currentStage].position.Length; i++)
             {
                 parts[i].transform.localPosition = Vector3.Lerp(parts[i].transform.localPosition, stgdt.data[currentStage].position[i], (elapsedtime/time));
