@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Test/Lookat Test.unity
+=======
+- path: Assets/Scenes/BlowUp Test.unity
+>>>>>>> Develop
   isLoaded: 1
   isActive: 1
