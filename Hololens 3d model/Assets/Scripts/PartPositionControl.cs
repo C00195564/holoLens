@@ -20,12 +20,17 @@ public class PartPositionControl : MonoBehaviour {
     /// </summary>
     public List<GameObject> parts;
 
-    public StageData stgdt;
-    // Use this for initialization
-    void Start () {
-        stgdt = FindObjectOfType<DataController>().LoadData();
+    StageData stgdt;
+
+    void Start()
+    {
+        stgdt = FindObjectOfType<DataController>().dat;
+        if(stgdt == null)
+        {
+            Debug.LogError("Data not loaded");
+        }
         //look at parts in the build AND CREATE THEM
-        for(int i = 0; i < stgdt.PartNames.Length;i++)
+        for (int i = 0; i < stgdt.PartNames.Length; i++)
         {
             Debug.Log(stgdt.PartNames[i]);
             GameObject temp = Instantiate(Resources.Load("Prefabs/" + stgdt.PartNames[i], typeof(GameObject))) as GameObject;
@@ -35,20 +40,19 @@ public class PartPositionControl : MonoBehaviour {
         text = GameObject.FindGameObjectWithTag("TextController").GetComponent<Displaytext>();
         currentStage = 0;
         UpdateStage();
-	}
-	
+    }
+
     public void NextStage()
     {
         if (Move == true)
         {
             currentStage++;
-            Debug.Log("Going to Stage: " + currentStage);
-            //Debug.Log("No of stages: " + stgdt.data.Length);
             if (currentStage >= stgdt.data.Length)
             {
                 currentStage = stgdt.data.Length - 1;
                 return;
             }
+            Debug.Log("Going to Stage: " + currentStage);
             Move = false;
             StartCoroutine(SmoothMove());
             //UpdateStage();
@@ -60,18 +64,22 @@ public class PartPositionControl : MonoBehaviour {
         if (Move == true)
         {
             currentStage--;
-            Debug.Log("Going to Stage: " + currentStage);
-            if (currentStage < 0)
+            
+            if (currentStage <= 0)
             {
                 currentStage = 0;
                 return;
             }
+            Debug.Log("Going to Stage: " + currentStage);
             Move = false;
             StartCoroutine(SmoothMove());
             //UpdateStage();
         }
     }
 
+    /// <summary>
+    /// Changes the position of the objects displayed to match the current stage
+    /// </summary>
     void UpdateStage()
     {
         //Debug.Log("changing stage");
@@ -87,12 +95,19 @@ public class PartPositionControl : MonoBehaviour {
         
     }
 
+    /// <summary>
+    /// Sets the stage back to the start
+    /// </summary>
     public void Reset()
     {
         currentStage = 0;
         UpdateStage();
     }
 
+    /// <summary>
+    /// coroutine for the smooth movement of objects from one stage to the next
+    /// </summary>
+    /// <returns></returns>
     IEnumerator SmoothMove()
     {
         float elapsedtime = 0;

@@ -10,19 +10,19 @@ public class DataController : MonoBehaviour {
     /// figure out a way to load
     /// </summary>
     public string DataFileName;
-
     public StageData dat;
-    private void Start()
+
+    void Awake()
     {
-        DontDestroyOnLoad(this);
-        LoadData();
+        DataFileName = FindObjectOfType<StringHolder>().filepath;
+        dat = LoadData();
     }
 
     public StageData LoadData()
     {
         string filepath = Path.Combine(Application.streamingAssetsPath, DataFileName);
-
-        if(File.Exists(filepath))
+        //Debug.Log(filepath);
+        if (File.Exists(filepath))
         {
             string jsonData = File.ReadAllText(filepath);
             StageData loadedData = JsonUtility.FromJson<StageData>(jsonData);

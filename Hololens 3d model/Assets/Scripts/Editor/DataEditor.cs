@@ -68,7 +68,7 @@ public class DataEditor : EditorWindow
     {
         Debug.Log("saving data json");
         string path = EditorUtility.SaveFilePanel("Select where to save .JSON file", Application.streamingAssetsPath, "Default", "json");
-        string jsondata = JsonUtility.ToJson(stageData);
+        string jsondata = JsonUtility.ToJson(stageData, true);
         string filepath = path;
         File.WriteAllText(filepath, jsondata);
     }
