@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f11a8b8dbf461c45a0626706323d743, type: 3}
   m_Name: DefaultButtonTextProfile
   m_EditorClassIdentifier: 
-  Alignment: 1
+  Alignment: 0
   Anchor: 4
   Style: 0
   Size: 109

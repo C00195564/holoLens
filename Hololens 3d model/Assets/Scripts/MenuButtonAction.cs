@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using HoloToolkit.Unity.Receivers;
 using HoloToolkit.Unity.InputModule;
+using UnityEngine.SceneManagement;
 
 public class MenuButtonAction : InteractionReceiver
 {
@@ -22,10 +23,24 @@ public class MenuButtonAction : InteractionReceiver
         {
             case "PartBuilderButton":
                 Debug.Log("PB PUSH");
+                StartCoroutine("GoToScene", 1);
                 break;
             case "ScannerButton":
                 Debug.Log("Scanner push");
+                StartCoroutine("GoToScene", 3);
+                break;
+            default:
+                Debug.Log(obj.name);
                 break;
         }
+    }
+
+    IEnumerator GoToScene(int loadindex)
+    {
+        int unload = SceneManager.GetActiveScene().buildIndex;
+        var loading = SceneManager.LoadSceneAsync(loadindex);
+        yield return loading;
+        SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(loadindex));
+        SceneManager.UnloadSceneAsync(unload);
     }
 }

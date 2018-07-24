@@ -7,13 +7,13 @@ public class Displaytext : MonoBehaviour {
 
     StageData data;
     Text text;
-	// Use this for initialization
-	void Start () {
-        data = FindObjectOfType<DataController>().LoadData();
+
+    private void Start()
+    {
+        data = FindObjectOfType<DataController>().dat;
         text = GameObject.FindGameObjectWithTag("Text").GetComponent<Text>();
-	}
-	
-	public void updateText(int stage)
+    }
+    public void updateText(int stage)
     {
        
         text.text = data.data[stage].text;
