@@ -1,0 +1,2 @@
+C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\CAD Part Builder.csproj;x86
+C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj;x86

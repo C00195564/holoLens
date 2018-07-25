@@ -7,6 +7,10 @@ using UnityEngine.SceneManagement;
 
 public class MenuButtonAction : InteractionReceiver
 {
+    private void Start()
+    {
+        Debug.Log("Button reciever ready");
+    }
 
     protected override void InputDown(GameObject obj, InputEventData eventData)
     {
@@ -18,9 +22,10 @@ public class MenuButtonAction : InteractionReceiver
 
     protected override void InputClicked(GameObject obj, InputClickedEventData eventData)
     {
-        //Debug.Log(obj.name + " : InputClicked");
+        Debug.Log(obj.name + " : InputClicked");
         switch (obj.name)
         {
+           
             case "PartBuilderButton":
                 Debug.Log("PB PUSH");
                 StartCoroutine("GoToScene", 1);

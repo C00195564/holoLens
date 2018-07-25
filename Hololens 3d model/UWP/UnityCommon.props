@@ -1,0 +1,9 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityWSASolutionName>CAD Part Builder</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\</UnityWSASolutionDir>
+        <UnityProjectDir>C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\</UnityProjectDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+    </PropertyGroup>
+</Project>

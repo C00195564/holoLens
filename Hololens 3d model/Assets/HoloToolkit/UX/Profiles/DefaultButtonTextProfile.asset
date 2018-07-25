@@ -11,11 +11,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f11a8b8dbf461c45a0626706323d743, type: 3}
   m_Name: DefaultButtonTextProfile
   m_EditorClassIdentifier: 
-  Alignment: 0
-  Anchor: 4
+  Alignment: 1
+  Anchor: 7
   Style: 0
-  Size: 109
-  Color: {r: 0, g: 0, b: 0, a: 1}
+  Size: 48
+  Color: {r: 1, g: 1, b: 1, a: 1}
   Font: {fileID: 12800000, guid: 86574c70442309b45be5a1c37a37a40b, type: 3}
   AnchorLowerCenterOffset: {x: 0, y: -0.035, z: -0.0075}
   AnchorLowerLeftOffset: {x: 0, y: -0.035, z: -0.0075}

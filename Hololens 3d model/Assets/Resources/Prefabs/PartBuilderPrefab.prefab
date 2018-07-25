@@ -632,6 +632,7 @@ GameObject:
   - component: {fileID: 223158493095545968}
   - component: {fileID: 114318395585011316}
   - component: {fileID: 114976754960808734}
+  - component: {fileID: 114054603812455306}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -2476,6 +2477,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KeywordSource: 2
   Keyword: Next
+--- !u!114 &114054603812455306
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1955370900616494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aebab3047f2113489ca3eb8423228b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Canvas: {fileID: 223158493095545968}
 --- !u!114 &114058183871551914
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2502,7 +2515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 0}
   currentStage: 0
-  noOfobjects: 0
+  Move: 1
   parts:
   - {fileID: 1637147817458894}
   - {fileID: 1884911547591038}
@@ -2513,9 +2526,6 @@ MonoBehaviour:
   - {fileID: 1367892236435008}
   - {fileID: 1751929324234706}
   - {fileID: 1927276261155134}
-  stgdt:
-    PartNames: []
-    data: []
 --- !u!114 &114067060937633748
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2865,6 +2875,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5228eb723dcd01446b3a196e0e75327f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DataFileName: 
   dat:
     PartNames: []
     data:
