@@ -169,7 +169,6 @@ C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\UnityEngineDelegates.winmd
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\UnityEngineProxy.dll
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\UnityPlayer.winmd
-C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\Vuforia.UnityExtensions.dll
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\WinRTBridge.winmd
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\WinRTLegacy.dll
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\UnityEngine.TilemapModule.pdb
@@ -223,7 +222,6 @@ C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\UnityEngine.UI.pdb
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\UnityEngine.SpatialTracking.pdb
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\UnityEngine.HoloLens.pdb
-C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\Vuforia.UnityExtensions.pdb
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\UnityEngine.StandardEvents.pdb
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\UnityEngine.Networking.pdb
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\GLTFSerializationUWP.pdb

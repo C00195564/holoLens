@@ -34,47 +34,54 @@ public class PartPositionControl : MonoBehaviour {
         {
             Debug.Log(stgdt.PartNames[i]);
             GameObject temp = Instantiate(Resources.Load("Prefabs/" + stgdt.PartNames[i], typeof(GameObject))) as GameObject;
+            temp.transform.parent = this.transform;
+            
             parts.Add(temp);
-            temp.transform.parent = transform.parent;
+            
         }
         text = GameObject.FindGameObjectWithTag("TextController").GetComponent<Displaytext>();
         currentStage = 0;
         UpdateStage();
     }
 
-    public void NextStage()
+    public bool NextStage()
     {
         if (Move == true)
         {
             currentStage++;
-            if (currentStage >= stgdt.data.Length)
+            if (currentStage > stgdt.data.Length - 1)
             {
                 currentStage = stgdt.data.Length - 1;
-                return;
+                return false;
             }
             Debug.Log("Going to Stage: " + currentStage);
             Move = false;
             StartCoroutine(SmoothMove());
             //UpdateStage();
+            return true;
         }
+        return false;
     }
 
-    public void PreviousStage()
+    public bool PreviousStage()
     {
         if (Move == true)
         {
+          
             currentStage--;
             
-            if (currentStage <= 0)
+            if (currentStage < 0)
             {
                 currentStage = 0;
-                return;
+                return false;
             }
             Debug.Log("Going to Stage: " + currentStage);
             Move = false;
             StartCoroutine(SmoothMove());
             //UpdateStage();
+            return true;
         }
+        return false;
     }
 
     /// <summary>
@@ -114,12 +121,14 @@ public class PartPositionControl : MonoBehaviour {
         float time = 1;
         while (elapsedtime < time)
         {
+            
             if (text != null)
             {
                 text.updateText(currentStage);
             }
             for (int i = 0; i < stgdt.data[currentStage].position.Length; i++)
             {
+               
                 parts[i].transform.localPosition = Vector3.Lerp(parts[i].transform.localPosition, stgdt.data[currentStage].position[i], (elapsedtime/time));
                 parts[i].transform.localRotation = Quaternion.Lerp(parts[i].transform.localRotation, stgdt.data[currentStage].Rotation[i], (elapsedtime/time));
                 parts[i].GetComponent<MeshRenderer>().enabled = stgdt.data[currentStage].alive[i];

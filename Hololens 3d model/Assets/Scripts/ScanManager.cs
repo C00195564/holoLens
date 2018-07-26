@@ -46,7 +46,7 @@ public class ScanManager : MonoBehaviour, IInputClickHandler {
         }
         else if(SpatialUnderstanding.Instance.ScanState == SpatialUnderstanding.ScanStates.Done)
         {
-            
+            InstantiateObjectOnSurface();
         }
     }
 
@@ -92,7 +92,7 @@ public class ScanManager : MonoBehaviour, IInputClickHandler {
         }
         else
         {
-            InstructionTextMesh.text = "I can't found the enough space to place the hologram.";
+            InstructionTextMesh.text = "I can't find the enough space to place the hologram.";
         }
     }
 }

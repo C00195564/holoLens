@@ -351,11 +351,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1330438581}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 53ede3222db089a438976a05dce18c9c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a50daa3135cf3649883480ebbd51644, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   InstructionTextMesh: {fileID: 1526288405}
-  ObjectPrefab: {fileID: 1892496639859482, guid: faa20e34f886b5b42916a11b532dd2b7,
+  ObjectPrefab: {fileID: 1658209697412528, guid: f1e5db941857f3d4694a2c1c1060c894,
     type: 2}
 --- !u!1001 &1347305334
 Prefab:

@@ -415,14 +415,8 @@
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\SharingClient.dll">
       <PackagePath>SharingClient.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\VuforiaWrapper.dll">
-      <PackagePath>VuforiaWrapper.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\SpatialUnderstanding.dll">
       <PackagePath>SpatialUnderstanding.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Vuforia.dll">
-      <PackagePath>Vuforia.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\boot.config">
       <PackagePath>Data\boot.config</PackagePath>
@@ -438,6 +432,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\level2">
       <PackagePath>Data\level2</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\level3">
+      <PackagePath>Data\level3</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
@@ -459,6 +456,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\sharedassets2.assets">
       <PackagePath>Data\sharedassets2.assets</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\sharedassets3.assets">
+      <PackagePath>Data\sharedassets3.assets</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
@@ -497,38 +497,35 @@
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.TilemapModule.dll">
-      <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.TextRenderingModule.dll">
       <PackagePath>UnityEngine.TextRenderingModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.TerrainPhysicsModule.dll">
       <PackagePath>UnityEngine.TerrainPhysicsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UIModule.dll">
-      <PackagePath>UnityEngine.UIModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.TerrainModule.dll">
+      <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.TilemapModule.dll">
+      <PackagePath>UnityEngine.TilemapModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UIElementsModule.dll">
       <PackagePath>UnityEngine.UIElementsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.SpriteMaskModule.dll">
-      <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.SharedInternalsModule.dll">
       <PackagePath>UnityEngine.SharedInternalsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.SpriteShapeModule.dll">
-      <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.ScreenCaptureModule.dll">
+      <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.TerrainModule.dll">
-      <PackagePath>UnityEngine.TerrainModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.SpriteMaskModule.dll">
+      <PackagePath>UnityEngine.SpriteMaskModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.StyleSheetsModule.dll">
       <PackagePath>UnityEngine.StyleSheetsModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.VRModule.dll">
-      <PackagePath>UnityEngine.VRModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.SpriteShapeModule.dll">
+      <PackagePath>UnityEngine.SpriteShapeModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.VideoModule.dll">
       <PackagePath>UnityEngine.VideoModule.dll</PackagePath>
@@ -536,14 +533,17 @@
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.VehiclesModule.dll">
       <PackagePath>UnityEngine.VehiclesModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.WebModule.dll">
-      <PackagePath>UnityEngine.WebModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UnityWebRequestWWWModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.VRModule.dll">
+      <PackagePath>UnityEngine.VRModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.WindModule.dll">
       <PackagePath>UnityEngine.WindModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UnityConnectModule.dll">
-      <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.WebModule.dll">
+      <PackagePath>UnityEngine.WebModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UnityAnalyticsModule.dll">
       <PackagePath>UnityEngine.UnityAnalyticsModule.dll</PackagePath>
@@ -551,11 +551,11 @@
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UNETModule.dll">
       <PackagePath>UnityEngine.UNETModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UnityWebRequestAudioModule.dll">
-      <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UIModule.dll">
+      <PackagePath>UnityEngine.UIModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UnityWebRequestWWWModule.dll">
-      <PackagePath>UnityEngine.UnityWebRequestWWWModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UnityConnectModule.dll">
+      <PackagePath>UnityEngine.UnityConnectModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UnityWebRequestTextureModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestTextureModule.dll</PackagePath>
@@ -563,8 +563,8 @@
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UnityWebRequestModule.dll">
       <PackagePath>UnityEngine.UnityWebRequestModule.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.ScreenCaptureModule.dll">
-      <PackagePath>UnityEngine.ScreenCaptureModule.dll</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.UnityWebRequestAudioModule.dll">
+      <PackagePath>UnityEngine.UnityWebRequestAudioModule.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.AudioModule.dll">
       <PackagePath>UnityEngine.AudioModule.dll</PackagePath>
@@ -649,9 +649,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.HoloLens.dll">
       <PackagePath>UnityEngine.HoloLens.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Vuforia.UnityExtensions.dll">
-      <PackagePath>Vuforia.UnityExtensions.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\UnityEngine.StandardEvents.dll">
       <PackagePath>UnityEngine.StandardEvents.dll</PackagePath>

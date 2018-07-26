@@ -5,6 +5,7 @@ SceneListBegin?
 Assets/Scenes/Test/MainMenu.unity
 Assets/Scenes/Test/PartBuilderMenu.unity
 Assets/Scenes/Test/PartBuilderTest.unity
+Assets/Scenes/Test/BlowUpTest.unity
 SceneListEnd?
 25cb152e6e129bf90517b2dd524dfab7 Assembly-CSharp.dll:.LookAt
 7abde016883951c4ca4e7c44ce6adb2c Assembly-CSharp.dll:HoloToolkit.Unity.SceneLauncher
@@ -281,6 +282,7 @@ cb3299cc3a2d8ae01f30f501bb96d4cf Assembly-CSharp.dll:HoloToolkit.Unity.InputModu
 c4fd2ef7468c68e11d03e50c6e8b323d Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.AnimButton
 219487901c928246931c9d354ef2010b Assembly-CSharp.dll:HoloToolkit.UX.ToolTips.ToolTip
 a791e7387cb4113e3b29c2bbd8199b96 Assembly-CSharp.dll:HoloToolkit.Unity.UX.DistorterGravity
+d2b249503a768fb80603e06735368071 Assembly-CSharp.dll:.tempDataController
 af1b899928fa73a7824f1b26518097f6 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.MeshButton
 44f24521fcafda017d17ab4dbb73c0cc Assembly-CSharp.dll:HoloToolkit.UX.ToolTips.ToolTipConnector
 8186a0148b55fd4b5cdaa99b9937cf7d Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.ButtonMeshProfile
