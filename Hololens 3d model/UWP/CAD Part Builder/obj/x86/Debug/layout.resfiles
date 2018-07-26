@@ -11,6 +11,7 @@ Data\globalgamemanagers.assets
 Data\level0
 Data\level1
 Data\level2
+Data\level3
 Data\managedAssemblies.txt
 Data\nativePlugins.txt
 Data\resources.assets
@@ -23,6 +24,7 @@ Data\sharedassets0.resource
 Data\sharedassets1.assets
 Data\sharedassets1.assets.resS
 Data\sharedassets2.assets
+Data\sharedassets3.assets
 Data\StreamingAssets\blowUp\9BlockBU.json
 Data\StreamingAssets\data.json
 Data\StreamingAssets\guides\9Block.json
@@ -38,5 +40,3 @@ SharingClient.dll
 SharingClient.pdb
 SpatialUnderstanding.dll
 SpatialUnderstanding.pdb
-Vuforia.dll
-VuforiaWrapper.dll

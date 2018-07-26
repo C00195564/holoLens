@@ -22,7 +22,7 @@ public class MenuButtonAction : InteractionReceiver
 
     protected override void InputClicked(GameObject obj, InputClickedEventData eventData)
     {
-        Debug.Log(obj.name + " : InputClicked");
+        //Debug.Log(obj.name + " : InputClicked");
         switch (obj.name)
         {
            

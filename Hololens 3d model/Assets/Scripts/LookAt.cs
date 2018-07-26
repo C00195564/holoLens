@@ -10,14 +10,14 @@ public class LookAt : MonoBehaviour, IFocusable {
 
 	public void OnFocusEnter()
     {
-        Debug.Log("enteringfocus");
+        //Debug.Log("enteringfocus");
         Text.SetActive(true);
         gameObject.GetComponent<MeshRenderer>().material.shader = HighlightShader;
     }
 
     public void OnFocusExit()
     {
-        Debug.Log("Leaving focus");
+        //Debug.Log("Leaving focus");
         Text.SetActive(false);
         gameObject.GetComponent<MeshRenderer>().material.shader = normalshader;
     }

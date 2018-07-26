@@ -5,10 +5,10 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-CAD Part Builder.sln: 886385109370E78A7B2861D135CD45C0
+CAD Part Builder.sln: 983C7A3B8B8D23F13DD9F2CAEF30CCA4
 project.json: 1D02BC64BAC0D041019673A1C4C51737
 CAD Part Builder\App.cs: FD3B2174A8BCB3E1D58279293E353461
-CAD Part Builder\CAD Part Builder.csproj: 5B882EAF4D6F0EED69E580CA7608E4B8
+CAD Part Builder\CAD Part Builder.csproj: 8A50860D17031A4F1A2B9C5B28AF20AE
 CAD Part Builder\CAD Part Builder.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
 CAD Part Builder\Package.appxmanifest: modified
 CAD Part Builder\project.json: 1D02BC64BAC0D041019673A1C4C51737

@@ -7,7 +7,7 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="Hololens3dmodel" Publisher="CN=iKnowledge Solutions" Version="1.0.2.0" ProcessorArchitecture="x86" />
+  <Identity Name="Hololens3dmodel" Publisher="CN=iKnowledge Solutions" Version="1.0.6.0" ProcessorArchitecture="x86" />
   <mp:PhoneIdentity PhoneProductId="4ae65ae0-d06d-4bbf-bac7-74dc7e013dd9" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>CAD Part Builder</DisplayName>

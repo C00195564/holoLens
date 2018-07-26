@@ -14,7 +14,24 @@ public class DataController : MonoBehaviour {
 
     void Awake()
     {
-        DataFileName = FindObjectOfType<StringHolder>().filepath;
+        string temp;
+
+        try
+        {
+            temp = FindObjectOfType<StringHolder>().filepath;
+        }
+        catch (System.Exception)
+        {
+            temp = null;
+            
+        }
+       
+        if(temp != null)
+        {
+            Debug.Log(temp);
+            DataFileName = temp;
+        }
+        
         dat = LoadData();
     }
 
