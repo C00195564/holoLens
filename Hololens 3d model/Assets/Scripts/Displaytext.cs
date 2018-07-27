@@ -4,18 +4,17 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Displaytext : MonoBehaviour {
-
-    StageData data;
-    Text text;
+    
+    public Text text;
 
     private void Start()
     {
-        data = FindObjectOfType<DataController>().dat;
-        text = GameObject.FindGameObjectWithTag("Text").GetComponent<Text>();
+        
     }
-    public void updateText(int stage)
+
+    public void updateText(string word)
     {
        
-        text.text = data.data[stage].text;
+        text.text = word;
     }
 }
