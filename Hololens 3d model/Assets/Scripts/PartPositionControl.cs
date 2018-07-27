@@ -39,7 +39,6 @@ public class PartPositionControl : MonoBehaviour {
             parts.Add(temp);
             
         }
-        text = GameObject.FindGameObjectWithTag("TextController").GetComponent<Displaytext>();
         currentStage = 0;
         UpdateStage();
     }
@@ -90,7 +89,11 @@ public class PartPositionControl : MonoBehaviour {
     void UpdateStage()
     {
         //Debug.Log("changing stage");
-        for(int i = 0; i < stgdt.data[currentStage].position.Length; i++)
+        if (text != null)
+        {
+            text.updateText(stgdt.data[currentStage].text);
+        }
+        for (int i = 0; i < stgdt.data[currentStage].position.Length; i++)
         {
             //Vector3 temp = stgdt.data[currentStage].position[i];
 
@@ -124,7 +127,7 @@ public class PartPositionControl : MonoBehaviour {
             
             if (text != null)
             {
-                text.updateText(currentStage);
+                text.updateText(stgdt.data[currentStage].text);
             }
             for (int i = 0; i < stgdt.data[currentStage].position.Length; i++)
             {
