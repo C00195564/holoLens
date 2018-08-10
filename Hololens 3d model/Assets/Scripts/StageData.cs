@@ -6,8 +6,9 @@ using UnityEngine;
 [System.Serializable]
 public class Stage 
 {
+    
     public Vector3[] position;
-    public Quaternion[] Rotation;
+    public Vector3[] Rotation;
     public bool[] alive;
     public string text;
 }
@@ -15,6 +16,8 @@ public class Stage
 [System.Serializable]
 public class StageData
 {
+    public string foldername;
     public string[] PartNames;
+    public Vector3 Scale;
     public Stage[] data;
 }

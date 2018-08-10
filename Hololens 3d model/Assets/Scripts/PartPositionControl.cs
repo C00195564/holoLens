@@ -25,16 +25,16 @@ public class PartPositionControl : MonoBehaviour {
     void Start()
     {
         stgdt = FindObjectOfType<DataController>().dat;
-        if(stgdt == null)
+        if (stgdt == null)
         {
             Debug.LogError("Data not loaded");
         }
         //look at parts in the build AND CREATE THEM
         for (int i = 0; i < stgdt.PartNames.Length; i++)
         {
-            Debug.Log(stgdt.PartNames[i]);
             GameObject temp = Instantiate(Resources.Load("Prefabs/" + stgdt.PartNames[i], typeof(GameObject))) as GameObject;
             temp.transform.parent = this.transform;
+            temp.transform.localScale = stgdt.Scale;
             
             parts.Add(temp);
             
@@ -96,10 +96,11 @@ public class PartPositionControl : MonoBehaviour {
         for (int i = 0; i < stgdt.data[currentStage].position.Length; i++)
         {
             //Vector3 temp = stgdt.data[currentStage].position[i];
-
+            //Debug.Log(stgdt.data[currentStage].Rotation[i]);
             parts[i].transform.localPosition = stgdt.data[currentStage].position[i];
-            parts[i].transform.localRotation = stgdt.data[currentStage].Rotation[i];
-            parts[i].GetComponent<MeshRenderer>().enabled = stgdt.data[currentStage].alive[i];
+            parts[i].transform.localRotation = Quaternion.Euler(stgdt.data[currentStage].Rotation[i]);
+            parts[i].SetActive(stgdt.data[currentStage].alive[i]);
+
             //Debug.Log(stgdt.data[currentStage].alive[i]);
         }
         
@@ -133,8 +134,9 @@ public class PartPositionControl : MonoBehaviour {
             {
                
                 parts[i].transform.localPosition = Vector3.Lerp(parts[i].transform.localPosition, stgdt.data[currentStage].position[i], (elapsedtime/time));
-                parts[i].transform.localRotation = Quaternion.Lerp(parts[i].transform.localRotation, stgdt.data[currentStage].Rotation[i], (elapsedtime/time));
-                parts[i].GetComponent<MeshRenderer>().enabled = stgdt.data[currentStage].alive[i];
+                //parts[i].transform.localRotation = Quaternion.Lerp(parts[i].transform.localRotation, stgdt.data[currentStage].Rotation[i], (elapsedtime/time));
+                parts[i].transform.localRotation = Quaternion.Lerp(parts[i].transform.localRotation, Quaternion.Euler(stgdt.data[currentStage].Rotation[i]), (elapsedtime / time));
+                parts[i].SetActive( stgdt.data[currentStage].alive[i]);
             }
 
             elapsedtime += Time.deltaTime;
