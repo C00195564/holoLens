@@ -366,9 +366,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5228eb723dcd01446b3a196e0e75327f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DataFileName: blowup/9blockBU.json
+  DataFileName: blowup/Guillotine_Assembly.json
   dat:
+    foldername: 
     PartNames: []
+    Scale: {x: 0, y: 0, z: 0}
     data: []
 --- !u!1 &1484007964
 GameObject:

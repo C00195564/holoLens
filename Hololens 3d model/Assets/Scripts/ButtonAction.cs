@@ -22,6 +22,9 @@ public class ButtonAction : InteractionReceiver {
         //Debug.Log(obj.name + " : InputClicked");
         switch(obj.name)
         {
+            case "ResetButton":
+                controller.reset();
+                break;
             case "PrevButton":
                 controller.PreviousStage();
                 break;
@@ -30,8 +33,10 @@ public class ButtonAction : InteractionReceiver {
                 controller.NextStage();
                 break;
             case "FirstButton":
+                controller.FirstStage();
                 break;
             case "LastButton":
+                controller.LastStage();
                 break;
             case "BlowUpButton":
                 if (!blownUp)

@@ -25,9 +25,12 @@ Data\sharedassets1.assets
 Data\sharedassets1.assets.resS
 Data\sharedassets2.assets
 Data\sharedassets3.assets
+Data\sharedassets3.assets.resS
 Data\StreamingAssets\blowUp\9BlockBU.json
-Data\StreamingAssets\data.json
+Data\StreamingAssets\blowUp\Guillotine_Assembly.json
 Data\StreamingAssets\guides\9Block.json
+Data\StreamingAssets\guides\Guillotine_Assembly.json
+Data\StreamingAssets\Guillotine_Assembly.json
 GpuTiming.dll
 GpuTiming.pdb
 MicStreamSelector.dll
@@ -40,3 +43,5 @@ SharingClient.dll
 SharingClient.pdb
 SpatialUnderstanding.dll
 SpatialUnderstanding.pdb
+Vuforia.dll
+VuforiaWrapper.dll
