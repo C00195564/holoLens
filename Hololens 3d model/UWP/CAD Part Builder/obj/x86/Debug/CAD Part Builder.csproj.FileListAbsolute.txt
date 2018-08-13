@@ -306,3 +306,5 @@ C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\obj\x
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\obj\x86\Debug\package.map.txt
 C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\obj\x86\Debug\_pkginfo.txt
+C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\Vuforia.UnityExtensions.dll
+C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\bin\x86\Debug\Vuforia.UnityExtensions.pdb
