@@ -13,7 +13,7 @@ public class PartPositionControl : MonoBehaviour {
     /// </summary>
     public Displaytext text;
     public int currentStage;
-
+    public Vector3 resetPosition;
     public bool Move = true;
     /// <summary>
     /// list of objects that is used to construct the complete object
@@ -29,6 +29,7 @@ public class PartPositionControl : MonoBehaviour {
         {
             Debug.LogError("Data not loaded");
         }
+        text.SetMaxStage(stgdt.data.Length);
         //look at parts in the build AND CREATE THEM
         for (int i = 0; i < stgdt.PartNames.Length; i++)
         {
@@ -41,6 +42,50 @@ public class PartPositionControl : MonoBehaviour {
         }
         currentStage = 0;
         UpdateStage();
+    }
+
+    public bool FirstStage()
+    {
+        if (Move == true)
+        {
+            currentStage = 0;
+            if (currentStage > stgdt.data.Length - 1)
+            {
+                currentStage = stgdt.data.Length - 1;
+                return false;
+            }
+            Debug.Log("Going to Stage: " + currentStage);
+            Move = false;
+            StartCoroutine(SmoothMove());
+            //UpdateStage();
+            return true;
+        }
+        return false;
+    }
+
+    public bool LastStage()
+    {
+        if (Move == true)
+        {
+            currentStage = stgdt.data.Length -1;
+            if (currentStage < 0)
+            {
+                currentStage = 0;
+                return false;
+            }
+            Debug.Log("Going to Stage: " + currentStage);
+            Move = false;
+            StartCoroutine(SmoothMove());
+            //UpdateStage();
+            return true;
+        }
+        return false;
+    }
+
+    public void reset()
+    {
+        transform.localPosition = resetPosition;
+        transform.localRotation = Quaternion.Euler(new Vector3(0,0,0));
     }
 
     public bool NextStage()
@@ -92,6 +137,7 @@ public class PartPositionControl : MonoBehaviour {
         if (text != null)
         {
             text.updateText(stgdt.data[currentStage].text);
+            text.setCurrentStage(currentStage + 1);
         }
         for (int i = 0; i < stgdt.data[currentStage].position.Length; i++)
         {
@@ -129,6 +175,7 @@ public class PartPositionControl : MonoBehaviour {
             if (text != null)
             {
                 text.updateText(stgdt.data[currentStage].text);
+                text.setCurrentStage(currentStage + 1);
             }
             for (int i = 0; i < stgdt.data[currentStage].position.Length; i++)
             {
