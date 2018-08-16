@@ -29,7 +29,10 @@ public class PartPositionControl : MonoBehaviour {
         {
             Debug.LogError("Data not loaded");
         }
-        text.SetMaxStage(stgdt.data.Length);
+        if (text != null)
+        {
+            text.SetMaxStage(stgdt.data.Length);
+        }
         //look at parts in the build AND CREATE THEM
         for (int i = 0; i < stgdt.PartNames.Length; i++)
         {
@@ -44,7 +47,7 @@ public class PartPositionControl : MonoBehaviour {
         UpdateStage();
     }
 
-    public bool FirstStage()
+    public void FirstStage()
     {
         if (Move == true)
         {
@@ -52,18 +55,18 @@ public class PartPositionControl : MonoBehaviour {
             if (currentStage > stgdt.data.Length - 1)
             {
                 currentStage = stgdt.data.Length - 1;
-                return false;
+                return;
             }
             Debug.Log("Going to Stage: " + currentStage);
             Move = false;
             StartCoroutine(SmoothMove());
             //UpdateStage();
-            return true;
+            return;
         }
-        return false;
+        return;
     }
 
-    public bool LastStage()
+    public void LastStage()
     {
         if (Move == true)
         {
@@ -71,15 +74,15 @@ public class PartPositionControl : MonoBehaviour {
             if (currentStage < 0)
             {
                 currentStage = 0;
-                return false;
+                return;
             }
             Debug.Log("Going to Stage: " + currentStage);
             Move = false;
             StartCoroutine(SmoothMove());
             //UpdateStage();
-            return true;
+            return;
         }
-        return false;
+        return;
     }
 
     public void reset()
@@ -88,7 +91,7 @@ public class PartPositionControl : MonoBehaviour {
         transform.localRotation = Quaternion.Euler(new Vector3(0,0,0));
     }
 
-    public bool NextStage()
+    public void NextStage()
     {
         if (Move == true)
         {
@@ -96,18 +99,18 @@ public class PartPositionControl : MonoBehaviour {
             if (currentStage > stgdt.data.Length - 1)
             {
                 currentStage = stgdt.data.Length - 1;
-                return false;
+                return;
             }
             Debug.Log("Going to Stage: " + currentStage);
             Move = false;
             StartCoroutine(SmoothMove());
             //UpdateStage();
-            return true;
+            return;
         }
-        return false;
+        return;
     }
 
-    public bool PreviousStage()
+    public void PreviousStage()
     {
         if (Move == true)
         {
@@ -117,15 +120,15 @@ public class PartPositionControl : MonoBehaviour {
             if (currentStage < 0)
             {
                 currentStage = 0;
-                return false;
+                return;
             }
             Debug.Log("Going to Stage: " + currentStage);
             Move = false;
             StartCoroutine(SmoothMove());
             //UpdateStage();
-            return true;
+            return;
         }
-        return false;
+        return;
     }
 
     /// <summary>

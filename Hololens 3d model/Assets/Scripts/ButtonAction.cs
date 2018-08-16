@@ -39,23 +39,6 @@ public class ButtonAction : InteractionReceiver {
                 controller.LastStage();
                 break;
             case "BlowUpButton":
-                if (!blownUp)
-                {
-                    if (controller.NextStage())
-                    {
-                        blownUp = true;
-                        Debug.Log("blow up");
-                    }
-                }
-                else
-                {
-                    if (controller.PreviousStage())
-                    {
-                        blownUp = false;
-                        Debug.Log("shrink back");
-                    }
-                }
-
                 break;
         }
     }

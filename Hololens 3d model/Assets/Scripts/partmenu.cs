@@ -22,7 +22,7 @@ public class partmenu : MonoBehaviour {
                 Debug.Log(file.FullName);
                 filenames.Add(file.FullName);
             }
-            Button temp = buttonPrefab;
+            //Button temp = buttonPrefab;
             //temp.transform.SetParent(null);
             //temp.
             //buttons.Add(temp);

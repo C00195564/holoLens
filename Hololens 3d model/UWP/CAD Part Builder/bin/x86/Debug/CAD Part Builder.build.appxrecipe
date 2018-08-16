@@ -403,6 +403,21 @@
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Vuforia\PartBuilder.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\PartBuilder.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Object_OT.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\PlaneFinding.dll">
       <PackagePath>PlaneFinding.dll</PackagePath>
     </AppxPackagedFile>
@@ -433,15 +448,6 @@
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\level0">
       <PackagePath>Data\level0</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\level1">
-      <PackagePath>Data\level1</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\level2">
-      <PackagePath>Data\level2</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\level3">
-      <PackagePath>Data\level3</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
     </AppxPackagedFile>
@@ -457,15 +463,6 @@
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\sharedassets0.assets">
       <PackagePath>Data\sharedassets0.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\sharedassets1.assets">
-      <PackagePath>Data\sharedassets1.assets</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\sharedassets2.assets">
-      <PackagePath>Data\sharedassets2.assets</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\sharedassets3.assets">
-      <PackagePath>Data\sharedassets3.assets</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\managedAssemblies.txt">
       <PackagePath>Data\managedAssemblies.txt</PackagePath>
     </AppxPackagedFile>
@@ -478,14 +475,8 @@
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\sharedassets0.assets.resS">
       <PackagePath>Data\sharedassets0.assets.resS</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\sharedassets1.assets.resS">
-      <PackagePath>Data\sharedassets1.assets.resS</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\sharedassets3.assets.resS">
-      <PackagePath>Data\sharedassets3.assets.resS</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\sharedassets0.resource">
-      <PackagePath>Data\sharedassets0.resource</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\resources.resource">
+      <PackagePath>Data\resources.resource</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\blowUp\9BlockBU.json">
       <PackagePath>Data\StreamingAssets\blowUp\9BlockBU.json</PackagePath>
@@ -501,6 +492,21 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Guillotine_Assembly.json">
       <PackagePath>Data\StreamingAssets\Guillotine_Assembly.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Vuforia\PartBuilder.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\PartBuilder.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Images.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_ModelTarget.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Vuforia\VuforiaMars_Object_OT.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_Object_OT.dat</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.dat">
+      <PackagePath>Data\StreamingAssets\Vuforia\VuforiaMars_VuMark.dat</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.17134.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap2="http://schemas.microsoft.com/appx/manifest/uap/windows10/2" IgnorableNamespaces="uap uap2 mp" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10">
-  <Identity Name="Hololens3dmodel" Publisher="CN=iKnowledge Solutions" Version="1.0.8.0" />
+  <Identity Name="Hololens3dmodel" Publisher="CN=iKnowledge Solutions" Version="1.0.26.0" />
   <mp:PhoneIdentity PhoneProductId="4ae65ae0-d06d-4bbf-bac7-74dc7e013dd9" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>CAD Part Builder</DisplayName>
