@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Test/2-HoloLens.unity
+- path: Assets/Scenes/Test/Entry Point.unity
   isLoaded: 1
   isActive: 1

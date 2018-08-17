@@ -566,7 +566,7 @@ PlayerSettings:
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Hololens3dmodel
-  metroPackageVersion: 1.0.25.0
+  metroPackageVersion: 1.0.30.0
   metroCertificatePath: Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
   metroCertificateSubject: iKnowledge Solutions

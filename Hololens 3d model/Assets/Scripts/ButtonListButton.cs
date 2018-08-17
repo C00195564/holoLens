@@ -21,7 +21,7 @@ public class ButtonListButton : MonoBehaviour {
     {
         //Debug.Log(myText);
         GameObject.FindGameObjectWithTag("Respawn").GetComponent<StringHolder>().filepath = filename;
-        StartCoroutine("GotoScene", 2);
+        StartCoroutine("GotoScene", 3);
     }
 
 

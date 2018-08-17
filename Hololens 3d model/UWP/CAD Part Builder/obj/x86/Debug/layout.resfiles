@@ -9,6 +9,10 @@ Data\boot.config
 Data\globalgamemanagers
 Data\globalgamemanagers.assets
 Data\level0
+Data\level1
+Data\level2
+Data\level3
+Data\level4
 Data\managedAssemblies.txt
 Data\nativePlugins.txt
 Data\resources.assets
@@ -18,6 +22,12 @@ Data\Resources\unity default resources
 Data\Resources\unity_builtin_extra
 Data\sharedassets0.assets
 Data\sharedassets0.assets.resS
+Data\sharedassets1.assets
+Data\sharedassets2.assets
+Data\sharedassets2.assets.resS
+Data\sharedassets3.assets
+Data\sharedassets4.assets
+Data\sharedassets4.assets.resS
 Data\StreamingAssets\blowUp\9BlockBU.json
 Data\StreamingAssets\blowUp\Guillotine_Assembly.json
 Data\StreamingAssets\guides\9Block.json

@@ -28,11 +28,11 @@ public class MenuButtonAction : InteractionReceiver
            
             case "PartBuilderButton":
                 Debug.Log("PB PUSH");
-                StartCoroutine("GoToScene", 1);
+                StartCoroutine("GoToScene", 2);
                 break;
             case "ScannerButton":
                 Debug.Log("Scanner push");
-                StartCoroutine("GoToScene", 3);
+                StartCoroutine("GoToScene", 4);
                 break;
             default:
                 Debug.Log(obj.name);
