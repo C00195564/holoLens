@@ -29,7 +29,6 @@ public class ButtonAction : InteractionReceiver {
                 controller.PreviousStage();
                 break;
             case "NextButton":
-               
                 controller.NextStage();
                 break;
             case "FirstButton":

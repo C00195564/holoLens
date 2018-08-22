@@ -89,6 +89,7 @@ public class PartPositionControl : MonoBehaviour {
     {
         transform.localPosition = resetPosition;
         transform.localRotation = Quaternion.Euler(new Vector3(0,0,0));
+        transform.localScale = new Vector3(1, 1, 1);
     }
 
     public void NextStage()
