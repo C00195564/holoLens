@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Test/Entry Point.unity
+    guid: 963997de8b027b44cbf5a4c16a0e0823
+  - enabled: 1
     path: Assets/Scenes/Test/MainMenu.unity
     guid: 4214fba362768ed44a9eb956dc01340d
   - enabled: 1
@@ -15,5 +18,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Test/PartBuilderTest.unity
     guid: 6bf1fbe220c7e364990a33a0e3c30d72
   - enabled: 1
-    path: Assets/Scenes/Test/BlowUpTest.unity
-    guid: 71fd52aebb942c246939a154e02016ed
+    path: Assets/Scenes/Test/ObjectRecognitionTest.unity
+    guid: 5e92a28b1fb8f884b8d25a7d878059c2

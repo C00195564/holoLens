@@ -1,1 +1,1 @@
-C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\AppPackages\CAD Part Builder_1.0.8.0_x86_Debug_Test\CAD Part Builder_1.0.8.0_x86_Debug.appx
+C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\AppPackages\CAD Part Builder_1.0.32.0_x86_Debug_Test\CAD Part Builder_1.0.32.0_x86_Debug.appx
