@@ -29,9 +29,10 @@ Data\sharedassets3.assets
 Data\sharedassets4.assets
 Data\sharedassets4.assets.resS
 Data\StreamingAssets\blowUp\9BlockBU.json
-Data\StreamingAssets\blowUp\Guillotine_Assembly.json
+Data\StreamingAssets\blowUp\Guillotine_AssemblyBU.json
 Data\StreamingAssets\guides\9Block.json
 Data\StreamingAssets\guides\Guillotine_Assembly.json
+Data\StreamingAssets\guides\Guillotine_AssemblyBU.json
 Data\StreamingAssets\Guillotine_Assembly.json
 Data\StreamingAssets\Vuforia\PartBuilder.dat
 Data\StreamingAssets\Vuforia\PartBuilder.xml

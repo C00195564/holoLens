@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Test/ObjectRecognitionTest.unity
+- path: Assets/Scenes/ObjectRecognition.unity
   isLoaded: 1
   isActive: 1

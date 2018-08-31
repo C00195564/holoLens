@@ -6,17 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test/Entry Point.unity
+    path: Assets/Scenes/Entry Point.unity
     guid: 963997de8b027b44cbf5a4c16a0e0823
   - enabled: 1
-    path: Assets/Scenes/Test/MainMenu.unity
+    path: Assets/Scenes/MainMenu.unity
     guid: 4214fba362768ed44a9eb956dc01340d
   - enabled: 1
-    path: Assets/Scenes/Test/PartBuilderMenu.unity
+    path: Assets/Scenes/PartBuilderMenu.unity
     guid: c0b312fbd4cf52c4e93a2660b2b0991f
   - enabled: 1
-    path: Assets/Scenes/Test/PartBuilderTest.unity
+    path: Assets/Scenes/PartBuilder.unity
     guid: 6bf1fbe220c7e364990a33a0e3c30d72
   - enabled: 1
-    path: Assets/Scenes/Test/ObjectRecognitionTest.unity
+    path: Assets/Scenes/ObjectRecognition.unity
     guid: 5e92a28b1fb8f884b8d25a7d878059c2

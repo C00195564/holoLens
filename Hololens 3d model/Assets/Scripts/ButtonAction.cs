@@ -38,6 +38,16 @@ public class ButtonAction : InteractionReceiver {
                 controller.LastStage();
                 break;
             case "BlowUpButton":
+                if (blownUp == false)
+                {
+                    controller.NextStage();
+                    blownUp = true;
+                }
+                else
+                {
+                    controller.PreviousStage();
+                    blownUp = false;
+                }
                 break;
         }
     }

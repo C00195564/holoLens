@@ -511,14 +511,17 @@
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\blowUp\9BlockBU.json">
       <PackagePath>Data\StreamingAssets\blowUp\9BlockBU.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\blowUp\Guillotine_Assembly.json">
-      <PackagePath>Data\StreamingAssets\blowUp\Guillotine_Assembly.json</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\blowUp\Guillotine_AssemblyBU.json">
+      <PackagePath>Data\StreamingAssets\blowUp\Guillotine_AssemblyBU.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\guides\9Block.json">
       <PackagePath>Data\StreamingAssets\guides\9Block.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\guides\Guillotine_Assembly.json">
       <PackagePath>Data\StreamingAssets\guides\Guillotine_Assembly.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\guides\Guillotine_AssemblyBU.json">
+      <PackagePath>Data\StreamingAssets\guides\Guillotine_AssemblyBU.json</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dara\Desktop\repo\hololens\Hololens 3d model\UWP\CAD Part Builder\Data\StreamingAssets\Guillotine_Assembly.json">
       <PackagePath>Data\StreamingAssets\Guillotine_Assembly.json</PackagePath>
